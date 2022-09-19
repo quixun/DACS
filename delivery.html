@@ -1,0 +1,211 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1147670ae7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Shop Thời Trang</title>
+</head>
+<body>
+   <header>
+     <!-- logo shop -->
+     <div class="logo">
+        <img src="images/logo.png" alt="">
+    </div>    
+    <!-- menu -->
+    <div class="menu">
+        <li><a>Nữ</a>
+            <ul class="sub-menu">
+                <li><a href="">Hàng mới về</a></li>
+                <li><a href="">Collection</a></li>
+                <li><a href="">Áo</a>
+                    <ul>
+                        <li><a href="">Áo sơ mi</a></li>
+                        <li><a href="">Áo thun</a></li>
+                        <li><a href="">Áo khoác</a></li>
+                        <li><a href="">Áo Vest</a></li>
+                        <li><a href="">Áo len</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Quần</a>
+                    <ul>
+                        <li><a href="">Quần Jean</a></li>
+                        <li><a href="">Quân lửng</a></li>
+                        <li><a href="">Quân dài</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Đầm nữ</a>
+                    <ul>
+                        <li><a href="">Đầm</a></li>
+                        <li><a href="">Đầm thun</a></li>
+                        <li><a href="">Senora</a></li>
+                        <li><a href="">Jumpsuit</a></li>
+                        <li><a href="">Zuýp</a></li>
+                        <li><a href="">Đồ lót</a></li>
+                        <li><a href="">Giày</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><a>Nam</a></li>
+        <li><a>Trẻ em</a></li>
+        <li><a>Sale</a></li>
+        <li><a>Khẩu Trang</a></li>
+        <li><a>Bộ Sưu Tập</a> </li>
+        <li><a>Thông Tin</a></li>
+    </div>
+    <!-- search and others -->
+    <div class="others">
+        <li><input type="text" placeholder="Tìm Kiếm"><i class="fas fa-search"></i></li>
+        <li><a class="fa fa-paw" href=""></a></li>
+        <li><a class="fa fa-user" href=""></a></li>
+        <li><a class="fa fa-shopping-bag" href=""></a></li>
+    </div>
+   </header>
+   <!-- ---- delivery ---- -->
+   <section class="delivery">
+        <div class="container">
+            <div class="delivery-top-wrap">
+                <div class="delivery-top">
+                    <div class="delivery-top-delivery delivery-top-item">
+                        <i class="fas fa-shopping-cart "></i>
+                    </div>
+                    <div class="delivery-top-adress delivery-top-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="delivery-top-payment delivery-top-item">
+                        <i class="fas fa-money-check-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="delivery-content row">
+                <div class="delivery-content-left">
+                    <p>Vui lòng chọn địa chỉ mua hàng</p>
+                    <div class="delivery-content-left-dangnhap row">
+                        <i class="fas fa-sign-in-alt"></i>
+                        <p>Đăng nhập (Nếu bạn đã có tài khoản 11 September)</p>
+                    </div>
+                    <div class="delivery-content-left-khachle row">
+                        <input checked name="loaikhach" type="radio">
+                        <p><span style="font-weight: bold;">Khách lẻ</span>(Nếu bạn không muốn lưu lại thông tin)</p>
+                    </div>
+                    <div class="delivery-content-left-dangki row">
+                        <input type="radio" name="loaikhach">
+                        <p><span style="font-weight: bold;">Đăng ký</span>(Tạo mới tài khoản với thông tin bên dưới)</p>
+                    </div>
+                    <div class="delivery-content-left-input-top row">
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Họ tên <span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Điện thoại <span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Tỉnh/Tp <span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Quận/Huyện <span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="delivery-content-left-input-bottom">
+                        <label for="">Địa chỉ <span style="color: red;">*</span></label>
+                        <input type="text">
+                        <div class="delivery-content-left-button row">
+                            <a href=""><span>&#171;</span><p>Quay lại giỏ hàng</p></a>
+                            <button><p style="font-weight: bold;">THANH TOÁN VÀ GIAO HÀNG</p></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="delivery-content-right">
+                    <table>
+                        <tr>
+                            <th>Tên sản phẩm</th>
+                            <th>Giảm giá</th>
+                            <th>Số lượng</th>
+                            <th>Thành tiền</th>
+                        </tr>
+                        <tr>
+                            <td>ĐẦM LỤA XÒE TAY PHỒNG</td>
+                            <td>-25%</td>
+                            <td>1</td>
+                            <td><p>1.463.000<sup>đ</sup></p></td>
+                        </tr>
+                        <tr>
+                            <td>ĐẦM LỤA XÒE TAY CỤT</td>
+                            <td>-15%</td>
+                            <td>1</td>
+                            <td><p>763.000<sup>đ</sup></p></td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold;" colspan="3">Tổng</td>
+                            <td style="font-weight: bold;"><p>763.000<sup>đ</sup></p></td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold;" colspan="3">Thuế VAT</td>
+                            <td style="font-weight: bold;"><p>63.000<sup>đ</sup></p></td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold;" colspan="3">Thành tiền</td>
+                            <td style="font-weight: bold;"><p>1.763.000<sup>đ</sup></p></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Foooooooooooooterrrrrrrrrrrrrrrrr -->
+    <hr>
+       <section class="app-container">
+        <p>Tải ứng dụng </p>
+        <div class="app-google">
+            <img src="images/appstore.png" alt="app store">
+            <img src="images/googleplay.png" alt="google play">
+        </div>
+        <p>Nhận bảng tin </p>
+        <li><input type="text" placeholder="Nhập email của bạn..."><i class="fas fa-arrow-left"></i></li>
+    </section>
+       <div class="footer-top">
+        <li><a href=""><img src="images/img-congthuong.png" alt=""></a></li>
+        <li><a href=""></a>Liên Hệ</li>
+        <li><a href=""></a>Tuyển Dụng</li>
+        <li><a href=""></a>Giới Thiệu</li>
+        <li>
+            <a href="" class="fab fa-facebook-f"></a>
+            <a href="" class="fab fa-twitter"></a>
+            <a href="" class="fab fa-youtube"></a>
+        </li>
+    </div>
+    <div class="footer-inf">
+        <p>
+            Công ty trách nhiệm hữu hạn 2 thành viên 11 September: <b>0703 092 742</b><br>
+            Địa chỉ đăng ký: Thôn Quan Hiện, X.Điện Hòa, TX.Điện Bàn, T.Quảng Nam<br>
+            Đặt hàng online: <b>0904 673 342</b>
+        </p>
+    </div>
+    <div class="footer-bottom">
+        @11September All rights reserved
+    </div>
+</body>
+<script>
+    const header = document.querySelector("header")
+    window.addEventListener("scroll",function(){
+        x = window.pageYOffset;
+        //console.log(x)
+        if(x>0){
+            header.classList.add("sticky")
+        }
+        else {
+            header.classList.remove("sticky")
+        }
+    })
+</script>
+</html>
